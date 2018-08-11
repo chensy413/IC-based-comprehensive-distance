@@ -1,6 +1,0 @@
-The .c files are code for OPF-SRM-IC based on LibOPF software. 
-One should install LibOPF and replace these files in the src folder. Replace the .h file in the include folder.
-
-The .m files are code for k-NN-SRM-IC and watershed based methods.
-
-An image is segmented by srm_load.m firstly using different Q values. The output of srm_load.m is using as the input of readnoncom.m. Then the output of readnoncom.m is used to execute kNN-SRM-IC. The accuracy measurement code can obtain in LibOPF.
